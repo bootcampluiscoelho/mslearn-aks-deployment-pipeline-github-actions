@@ -38,7 +38,5 @@ jobs:
           # Docker repository to tag the image with
           repository: contoso-website
           # Comma-delimited list of tags. These are added to the registry/repository to form the image's tags
-          tags: latest # optional
-          # Automatically tags the built image with the Git reference as per the readme
           tag_with_ref: true # optional
           # Automatically tags the built image with the Git short SHA as per the readme
